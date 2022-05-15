@@ -145,7 +145,6 @@ def tax_dis_var_cit (td,t,md,z,c):
     y=((1-td)/(1-t))*((1-md)/((1-z)*(1-c)))
     return y
 
-
 def tax_dis_var_pit (td,t,md,z,c):
     '''
     Parameters
@@ -183,7 +182,6 @@ def net_pres_val_cit (t,am,p):
     #Am=(t*am)/(am+p)*(1+((1-am)/(1+p))^1+((1-am)/(1+p))^2+((1-am)/(1+p))^3+((1-am)/(1+p))^4+((1-am)/(1+p))^5+((1-am)/(1+p))^6+((1-am)/(1+p))^7)
     Am=t*am/(am+p)
     return Am
-
 
 def net_pres_val_pit (t,am,p1):
     '''
@@ -255,7 +253,6 @@ def cap_all_intan_cit (t,ai,p):
     
     Cai=(t*ai)/(ai+p)*(1+((1-ai)/(1+p))**1+((1-ai)/(1+p))**2+((1-ai)/(1+p))**3+((1-ai)/(1+p))**4+((1-ai)/(1+p))**5)
     return Cai
-
 
 def cap_all_intan_cit (t,ai,p):
     '''
