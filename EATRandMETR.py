@@ -47,11 +47,13 @@ from pandas import ExcelFile
 
 
 
+
+
 '''Import data '''
 
 df = pd.read_excel('Dataset.xlsx', 'TaxParametars')
 
-df
+df.head()
 
 '''Define functions '''
 
