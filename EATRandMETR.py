@@ -88,7 +88,6 @@ def accruals_e_cap_gain (mi,zc,l,i):
     return z
 
 
-
 def share_disc_rate_cit (mi,z,i):
     '''
     Parameters
@@ -123,7 +122,6 @@ def share_disc_rate_pit (mi,z,i):
     return p1
 
 
-
 def tax_dis_var_cit (td,t,md,z,c):
     '''
     Parameters
@@ -142,7 +140,6 @@ def tax_dis_var_cit (td,t,md,z,c):
     '''
     y=((1-td)/(1-t))*((1-md)/((1-z)*(1-c)))
     return y
-
 
 def tax_dis_var_pit (td,t,md,z,c):
     '''
