@@ -446,19 +446,15 @@ print("Capital allowance for intangibles'Cai1' is", round(df['Cai1']*100, 2), '%
 df['Fne'] = add_cost_rain_ext_fin(df['i'], df['y'], df['e'])
 print("Additional cost of raising external finance'Fne' is", round(df['Fne']*100, 2), '%')
 
-
 df['Fne1'] = add_cost_rain_ext_fin(df['i'], df['y1'], df['e'])
 print("Additional cost of raising external finance'Fne1' is", round(df['Fne1']*100, 2), '%')
 
 # Additional cost of raising external finance
-
 df['Fde'] = add_cost_rain_ext_debt(df['y'], df['e'], df['i'],df['p'], df['t'])
 print("Additional cost of raising external finance'Fde' is", round(df['Fde']*100, 2), '%')
 
-
 df['Fde1'] = add_cost_rain_ext_debt(df['y1'], df['e'], df['i'],df['p'], df['t'])
 print("Additional cost of raising external finance'Fde1' is", round(df['Fde1']*100, 2), '%')
-
 
 #EATR
 df['Rs'] = add_EATR_abs_tax(df['pe'], df['r'])
