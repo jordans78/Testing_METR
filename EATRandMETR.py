@@ -54,6 +54,10 @@ df = pd.read_excel('Dataset.xlsx', 'TaxParametars')
 df
 
 
+
+
+
+
 '''Define functions '''
 
 # Part 1 Calculated elements
