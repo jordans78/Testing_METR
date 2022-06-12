@@ -52,6 +52,7 @@ from pandas import ExcelFile
 df = pd.read_excel('Dataset.xlsx', 'TaxParametars')
 
 df
+df.info()
 
 '''Define functions '''
 
