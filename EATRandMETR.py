@@ -378,7 +378,6 @@ def add_EATR_abs_tax (pe,r):
     Rs=(pe-r)/(1+r)
     return  Rs
 
-
 '''Estimation of parametars'''
 
     # Nominal interest rate
@@ -420,7 +419,6 @@ print("Net present value of capital allowances'Am' is", round(df['Am']*100, 2), 
     #     Net present value of capital allowances,Capital allowance for machinery: corporate taxes and personal taxes
 df['Am1'] = net_pres_val_pit(df['t'], df['am'], df['p1'])
 print("Capital allowance for buildings'Am1' is", round(df['Am1']*100, 2), '%')
-
 
 '''Capital allowance for buildings'''
 
