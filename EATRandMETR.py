@@ -55,9 +55,6 @@ df
 
 
 
-
-
-
 '''Define functions '''
 
 # Part 1 Calculated elements
@@ -166,7 +163,6 @@ def tax_dis_var_pit (td,t,md,z,c):
     return y1
 
 # Part 2 Net present value of capital allowances
-
 def net_pres_val_cit (t,am,p):
     '''
     Parameters
@@ -198,7 +194,6 @@ def net_pres_val_pit (t,am,p1):
  Net present value of capital allowances,Capital allowance for machinery: corporate taxes and personal taxes
 
     '''
-    
     Am1=t*am/(am+p1)
     return Am1
 
